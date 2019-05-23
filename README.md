@@ -1,6 +1,4 @@
-# citn
-
-> acitn plua citn plugingin
+# xvue-ui
 
 ## Build Setup
 
