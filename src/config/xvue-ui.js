@@ -20,6 +20,9 @@ import xMenuItem from '../packages/menu/menuitem';
 import xMenuTitle from '../packages/menu/menutitle';
 import xCollapse from '../packages/collapse/collapse';
 import xCollapseItem from '../packages/collapse/collapse-item';
+import xTabs from '../packages/tabs/tabs';
+import xTabPane from '../packages/tabs/tabpane';
+import xLazyImg from '../packages/lazyimg';
 
 import './citnfont/citnfont.css';
 import './css/reset.css';
@@ -48,7 +51,10 @@ const xvue = {
     xMenuItem,
     xMenuTitle,
     xCollapse,
-    xCollapseItem
+    xCollapseItem,
+    xTabs,
+    xTabPane,
+    xLazyImg
 };
 
 const install = function (Vue, opts = {}) {
