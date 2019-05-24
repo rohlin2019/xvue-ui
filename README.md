@@ -22,4 +22,12 @@ Vue.use(xvueui);
 ```
 
 ## CDN
-* <script src='https://cdn.jsdelivr.net/npm/xvue-ui@1.3.47/dist/xvue-ui.js'></script>
+* https://cdn.jsdelivr.net/npm/xvue-ui@1.3.47/dist/xvue-ui.js
+
+## Development
+``` bash
+npm run dev
+```
+
+## License
+MIT
