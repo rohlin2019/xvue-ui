@@ -1,16 +1,21 @@
 # xvue-ui
 
-## Build Setup
+## Official Website
+[xvue-ui official website](http://www.xvue.cn).
 
-``` bash
-# install dependencies
-npm install
+## Installation
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+```shell
+npm install xvue-ui --save
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+import all components.
+
+``` javascript
+import Vue from 'vue';
+import xvueui from 'xvue-ui';
+
+Vue.use(xvueui);
+```
