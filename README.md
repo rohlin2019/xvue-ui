@@ -1,5 +1,10 @@
 # xvue-ui
+
+![xvue-ui](https://www.xvue.cn/dist/static/img/xvue-ui.dd56c7b.png "xvue-ui logo")  
+
 xvue-ui是一款基于vue.js开发的响应式框架,包含丰富的css和js组件。
+
+[![NPM downloads](https://img.shields.io/npm/dm/xvue-ui.svg)](https://www.npmjs.com/package/xvue-ui)
 
 ## Official Website
 [xvue-ui official website](http://www.xvue.cn).
