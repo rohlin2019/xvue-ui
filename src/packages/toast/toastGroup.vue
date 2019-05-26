@@ -7,6 +7,8 @@
         :type="item.type"
         :backgroundColor="item.backgroundColor"
         :textColor="item.textColor"
+        :position="item.position"
+        :positionDistance="item.positionDistance"
         :on-close="item.onClose"
         @closeToastGroup="closeToastGroup"
         >

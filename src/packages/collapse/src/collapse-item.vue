@@ -6,6 +6,7 @@
             padding:15px;
             font-size:14px;
             background:#fff;
+            line-height:18px;
         }
         .xvue-collapse-item-title{
             cursor:pointer;

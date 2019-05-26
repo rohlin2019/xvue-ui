@@ -3,11 +3,9 @@ import xToastGroup from '../toast/toastGroup'
 
 function createToast(data){
     let newdata = data
-    console.log(data)
     if(newdata.slots){
         newdata.slots = newdata.slots.replace(/(\'|\")/g,'')
     }
-    // let props = `backgroundColor='${newdata.backgroundColor}' textColor='${newdata.textColor}' content='${newdata.content}' :duration='${newdata.duration}' type='${newdata.type}' slots='${newdata.slots}'`
     const div = document.createElement('x-toast-group');
     div.innerHTML = `<x-toast-group></x-toast-group>`;
     document.body.appendChild(div);

@@ -105,7 +105,7 @@ export default {
   user-select: none;
   &.disabled {
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 0.5!important;
   }
   &.round {
     border-radius: 20px;
