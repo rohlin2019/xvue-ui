@@ -1,18 +1,38 @@
-# citn
+# xvue-ui
 
-> acitn plua citn plugingin
+![xvue-ui](https://www.xvue.cn/dist/static/img/xvue-ui.dd56c7b.png "xvue-ui logo")  
 
-## Build Setup
+xvue-ui是一款基于vue.js开发的响应式框架,包含丰富的css和js组件。
 
-``` bash
-# install dependencies
-npm install
+[![NPM downloads](https://img.shields.io/npm/dm/xvue-ui.svg)](https://www.npmjs.com/package/xvue-ui) 
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Official Website
+[xvue-ui official website](http://www.xvue.cn).
 
-# build for production with minification
-npm run build
+## Installation
+
+```shell
+npm install xvue-ui --save
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+import all components.
+
+``` javascript
+import Vue from 'vue';
+import xvueui from 'xvue-ui';
+
+Vue.use(xvueui);
+```
+
+## CDN
+* https://cdn.jsdelivr.net/npm/xvue-ui@1.3.47/dist/xvue-ui.js
+
+## Development
+``` bash
+npm run dev
+```
+
+## License
+MIT
