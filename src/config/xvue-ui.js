@@ -23,6 +23,9 @@ import xCollapseItem from '../packages/collapse/collapse-item';
 import xTabs from '../packages/tabs/tabs';
 import xTabPane from '../packages/tabs/tabpane';
 import xLazyImg from '../packages/lazyimg';
+import xTag from '../packages/tag';
+// import xDatePicker from '../packages/datepicker';
+import xInput from '../packages/input';
 
 import './citnfont/citnfont.css';
 import './css/reset.css';
@@ -54,7 +57,10 @@ const xvue = {
     xCollapseItem,
     xTabs,
     xTabPane,
-    xLazyImg
+    xLazyImg,
+    xTag,
+    // xDatePicker,
+    xInput
 };
 
 const install = function (Vue, opts = {}) {

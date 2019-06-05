@@ -43,23 +43,12 @@
 </template>
 <script>
 export default {
-  props: {
-    backgroundColor: {
-      type: String,
-      default: "rgba(0,0,0,.3)"
-    },
-    isBackground: {
-      type: Boolean,
-      default: true
-    },
-    text:{
-      type:String,
-      default:'正在加载'
-    }
-  },
   data(){
     return{
-      type:'spinner'
+      type:'spinner',
+      text:'正在加载',
+      backgroundColor:'rgba(0,0,0,.3)',
+      isBackground:true
     }
   },
   computed: {
@@ -73,6 +62,15 @@ export default {
     loadingTypeFun(data){
       if(data.type){
         this.type = data.type
+      }
+      if(data.text){
+        this.text = data.text
+      }
+      if(data.backgroundColor){
+        this.backgroundColor = data.backgroundColor
+      }
+      if(data.isBackground == true || data.isBackground == false){
+        this.isBackground = data.isBackground
       }
     }
   }

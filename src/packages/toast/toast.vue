@@ -66,9 +66,6 @@ export default {
           }
       },
       computedPositionDistance(){
-          console.log({
-              [this.position] : this.positionDistance
-          })
           return {
               [this.position] : this.positionDistance
           }
@@ -79,7 +76,6 @@ export default {
     let startDate = new Date().getTime()
     let duration = parseInt(this.duration + '000')
     let stop = setInterval(()=>{
-        console.log('this.position',this.position)
         if(this.position == 'top'){
             let endDate = new Date().getTime()
             if((endDate-startDate)>duration){

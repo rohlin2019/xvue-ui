@@ -41,7 +41,6 @@ export default {
         add(data){
             this.isShow = true
             this.dialogList.push(data)
-            console.log(this.dialogList)
         },
         // 关闭外层div
         onCancel(e){
