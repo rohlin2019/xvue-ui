@@ -26,6 +26,7 @@ import xLazyImg from '../packages/lazyimg';
 import xTag from '../packages/tag';
 // import xDatePicker from '../packages/datepicker';
 import xInput from '../packages/input';
+import xPagination from '../packages/pagination';
 
 import './citnfont/citnfont.css';
 import './css/reset.css';
@@ -60,7 +61,8 @@ const xvue = {
     xLazyImg,
     xTag,
     // xDatePicker,
-    xInput
+    xInput,
+    xPagination
 };
 
 const install = function (Vue, opts = {}) {
