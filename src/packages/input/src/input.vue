@@ -196,7 +196,7 @@ export default {
     props:{
         id:{
             type:String,
-            default:''
+            default:null
         },
         width:{
             type:String,

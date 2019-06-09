@@ -12,6 +12,8 @@ import xRate from '../packages/rate';
 import xCounter from '../packages/counter';
 import xRadio from '../packages/radio/radio';
 import xRadioGroup from '../packages/radio/radio-group';
+import xCheckbox from '../packages/checkbox/checkbox';
+import xCheckboxGroup from '../packages/checkbox/checkbox-group';
 import xLoading from '../packages/loading/loading';
 import xProgress from '../packages/progress';
 import xMenu from '../packages/menu/menu';
@@ -27,6 +29,7 @@ import xTag from '../packages/tag';
 // import xDatePicker from '../packages/datepicker';
 import xInput from '../packages/input';
 import xPagination from '../packages/pagination';
+
 
 import './citnfont/citnfont.css';
 import './css/reset.css';
@@ -48,6 +51,8 @@ const xvue = {
     xCounter,
     xRadio,
     xRadioGroup,
+    xCheckbox,
+    xCheckboxGroup,
     xLoading,
     xProgress,
     xMenu,
@@ -62,7 +67,7 @@ const xvue = {
     xTag,
     // xDatePicker,
     xInput,
-    xPagination
+    xPagination,
 };
 
 const install = function (Vue, opts = {}) {

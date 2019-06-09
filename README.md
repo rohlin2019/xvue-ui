@@ -27,7 +27,7 @@ Vue.use(xvueui);
 ```
 
 ## CDN
-* https://cdn.jsdelivr.net/npm/xvue-ui@1.3.64/dist/xvue-ui.js
+* https://cdn.jsdelivr.net/npm/xvue-ui@1.3.66/dist/xvue-ui.js
 
 ## Development
 ``` bash

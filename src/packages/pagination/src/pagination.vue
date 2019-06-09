@@ -163,8 +163,8 @@ export default {
             default:5
         },
         pageSize:{
-            type:Array,
-            default:[]
+            type:[Array],
+            default:()=>[]
         },
         selectedColor:{
             type:String,
