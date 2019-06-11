@@ -1,7 +1,7 @@
 {
   "name": "xvue-ui",
   "description": "xvue-ui是一款基于vue.js开发的响应式前端框架",
-  "version": "1.3.66",
+  "version": "1.3.67",
   "author": "rohlin",
   "main": "dist/xvue-ui.js",
   "license": "MIT",

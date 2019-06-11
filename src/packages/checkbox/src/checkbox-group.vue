@@ -5,14 +5,48 @@
 </template>
 <script>
 export default {
-    name:'xRadioGroup',
-    componentName: 'xRadioGroup',
+    name:'xCheckboxGroup',
+    componentName: 'xCheckboxGroup',
     props:{
-        value: {}
+        model: {
+            type: Array,
+            default () {
+                return [];
+            }
+        }
+    },
+    watch: {
+        model () {
+            this.getModelArray()
+        }
+    },
+    mounted(){
+        this.getModelArray()
     },
     methods:{
+        getModelArray(){
+            let that = this
+            this.$children.forEach((e) => {
+                for(let i = 0;i<this.model.length;i++){
+                    if(this.model[i] === e.label){
+                        e.computedChecked = true
+                    }
+                }
+            })
+        },
         onChange(item){
-            this.$emit('change',item.computedModel)
+            let checkedModel = []
+            let noCheckedModel = []
+            this.$children.forEach((e) => {
+                if(e.$options.componentName === 'xCheckbox'){
+                    if(e.computedChecked){
+                        checkedModel.push(e.label)
+                    }else{
+                        noCheckedModel.push(e.label)
+                    }
+                }
+            })
+            this.$emit('on-change',checkedModel,noCheckedModel)
         }
     }
 }

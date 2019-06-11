@@ -153,7 +153,7 @@ export default {
                 parent.$emit.apply(parent, arr);
             }
         } else {
-          this.$emit("input", setNewValue);
+            this.$emit("input", setNewValue);
         }
       },
       get() {
